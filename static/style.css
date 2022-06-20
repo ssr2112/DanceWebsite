@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* to remove extra gap at end or top */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 63px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #9d5cec90;
+    font-family:  'Arial Narrow Bold', sans-serif ;
+    padding: 18px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* : center; */
+    align-items: center;
+    height: 63px;
+}
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    font-family: Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 12px 10px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 38px;
+    padding: 5px;
+}
+
+#missionSection{
+    height: 326px;; 
+    width: 67%;
+    margin: auto;
+}
+#missionSection h2{
+    font-size: 36px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 26px 15px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+#sponsorsSection{
+    height: 249px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+    font-size: 36px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 12px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: 3px 274px ;
+    display: flex; 
+    flex-direction: row;
+}
+.spImage {
+    height: 150px;
+    margin: 31px;
+}
+ 
+
+#footer{
+    color: white;
+    display: flex;
+    font-size: 21px;   
+    font-family:  Times, serif;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+    height:56px; 
+}
